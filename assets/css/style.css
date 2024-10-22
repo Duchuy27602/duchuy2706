@@ -77,8 +77,9 @@ a {
 .break-all {
   word-break: break-all;
 }
+
 /* Header */
-.header {
+.header__index {
   background: #fffcf4;
 }
 
@@ -92,6 +93,11 @@ a {
   display: flex;
   align-items: center;
   padding: 36px 0 8px;
+}
+
+.header .logo {
+  display: inline-block;
+  color: #171100;
 }
 
 .header .logo:hover {
@@ -224,6 +230,9 @@ a {
 
 .footer {
   padding: 96px 135px 96px;
+}
+
+.footer__index {
   background: #fffcf4;
 }
 
@@ -253,7 +262,6 @@ a {
 
 .contact {
   padding-top: 60px;
-  background: #fffcf4;
 }
 .contact .body {
   display: flex;
